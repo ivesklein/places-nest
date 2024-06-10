@@ -1,0 +1,6 @@
+DONE: places model
+    DONE: make dynamodb connection (dynamoose)
+    
+TODO: folders model
+TODO: users system
+TODO: auth system
