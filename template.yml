@@ -9,8 +9,8 @@ Resources:
       Handler: dist/serverless.handler
       Runtime: nodejs16.x
       CodeUri: ./
-      MemorySize: 256
-      Timeout: 20
+      MemorySize: 512
+      Timeout: 60
       Events:
         HelloWorld:
           Type: Api
