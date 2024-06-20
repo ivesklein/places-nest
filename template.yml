@@ -11,6 +11,9 @@ Resources:
       CodeUri: ./
       MemorySize: 512
       Timeout: 60
+      Policies:
+      # Give the Lambda service access to poll your DynamoDB Stream
+      - AmazonDynamoDBFullAccess
       Events:
         HelloWorld:
           Type: Api
